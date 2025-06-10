@@ -1,0 +1,12 @@
+.progress-bar {
+  transition: width 0.3s ease, background-color 0.3s ease;
+}
+
+#strengthBar {
+  background-color: gray;
+}
+
+.feedback-item {
+  list-style: none;
+  margin-bottom: 5px;
+}

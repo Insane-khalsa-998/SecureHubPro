@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SecureHub 🔒</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"  rel="stylesheet"/>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body class="light-mode">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary mb-4">
+    <div class="container-fluid">
+      <a class="navbar-brand fs-3 fw-bold" href="#">🔐 SecureHub</a> 
+      <button class="btn btn-outline-secondary ms-auto" id="themeToggle">🌙 Dark Mode</button>
+      <a class="btn btn-primary ms-2" href="https://github.com/Insane-khalsa-998/SecureCryptPro"  target="_blank">GitHub</a>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container text-center my-5">
+    <h1 class="display-4 mb-5 fw-bold">Your One-Stop Security Toolkit</h1>
+
+    <div class="row g-4 justify-content-center">
+
+      <!-- Password Checker Card -->
+      <div class="col-md-4 col-sm-6">
+        <div class="card-flip">
+            <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <h3>Password Strength Checker</h3>
+            </div>
+            <div class="flip-card-back">
+                <p>Check if your password is strong or has been leaked in data breaches.</p>
+                <a href="tools/password-checker/index.html" class="btn btn-primary mt-2">Explore Tool</a>
+            </div>
+            </div>
+        </div>
+    </div>
+
+      <!-- Encryption Tool Card -->
+      <div class="col-md-4 col-sm-6">
+        <div class="card-flip">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h3>Encryption Tools</h3>
+            </div>
+            <div class="flip-card-back">
+              <p>Encrypt and decrypt text using AES-256 and DES algorithms securely.</p>
+              <a href="tools/encryption/index.html" class="btn btn-primary mt-2">Explore Tool</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Steganography Tool Card -->
+      <div class="col-md-4 col-sm-6">
+        <div class="card-flip">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h3>Steganography Tool</h3>
+            </div>
+            <div class="flip-card-back">
+              <p>Hide secret messages inside images using advanced steganography techniques.</p>
+              <a href="tools/steganography/index.html" class="btn btn-primary mt-2">Explore Tool</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Brute-force Simulator Card -->
+      <div class="col-md-4 col-sm-6">
+        <div class="card-flip">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h3>Brute-force Simulator</h3>
+            </div>
+            <div class="flip-card-back">
+              <p>Simulate how fast a password can be cracked using brute-force methods.</p>
+              <a href="tools/brute-force/index.html" class="btn btn-primary mt-2">Explore Tool</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="text-center py-4 border-top mt-5">
+    <p class="mb-0">© 2025 SecureHub by Insane Khalsa. Made with 💖</p>
+  </footer>
+
+  <!-- JS Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
