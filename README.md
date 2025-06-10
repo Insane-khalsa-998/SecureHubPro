@@ -2,7 +2,7 @@
 
 A modern, interactive web-based toolkit built with HTML, CSS, and JavaScript to help you explore and understand cybersecurity tools.
 
-🔐 **Live Demo**: [View SecureHub on Netlify](https://your-netlify-link.netlify.app) 
+🔐 **Live Demo**:(https://secureminitools.netlify.app/)
 
 ---
 
