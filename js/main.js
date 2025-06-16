@@ -1,3 +1,7 @@
+$(window).on('load resize', function() {
+  $('.tab, .card').css('touch-action', 'manipulation');
+});
+
 // Theme toggle functionality for all pages
 const themeToggle = document.getElementById("themeToggle");
 
